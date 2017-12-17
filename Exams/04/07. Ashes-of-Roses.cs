@@ -15,6 +15,7 @@ namespace AshesOfRoses4
             SortedDictionary<string, SortedDictionary<string,long>> map = new SortedDictionary<string, SortedDictionary<string, long>>();
 
             string input = Console.ReadLine();
+            
             while (input != "Icarus, Ignite!")
             {
                 Regex regex = new Regex(@"Grow <([A-Z][a-z]+)> <([A-Za-z0-9]+)> (\d+)");
